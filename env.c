@@ -3,6 +3,7 @@
 /**
  * _myenv - entry point
  * @info: data struct
+ *
  * Return: Always 0
  */
 int _myenv(info_t *info)
@@ -13,7 +14,7 @@ int _myenv(info_t *info)
 
 /**
  * _getenv - second entry point
- * @info: data struct
+ * @info: data structure
  * @name: envi name
  * Return: NULL val
  */
@@ -34,7 +35,7 @@ char *_getenv(info_t *info, const char *name)
 
 /**
  * _mysetenv - third entry point
- * @info: data struct
+ * @info: data structure
  * Return: Always 0
  */
 int _mysetenv(info_t *info)
@@ -51,7 +52,7 @@ int _mysetenv(info_t *info)
 
 /**
  * _myunsetenv - fourth entry point
- * @info: data struct
+ * @info: data structure
  * Return: Always 0
  */
 int _myunsetenv(info_t *info)
@@ -71,7 +72,7 @@ int _myunsetenv(info_t *info)
 
 /**
  * populate_env_list - fifth entry point
- * @info: data struct
+ * @info: data structure
  * Return: Always 0
  */
 int populate_env_list(info_t *info)

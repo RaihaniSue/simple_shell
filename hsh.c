@@ -1,8 +1,8 @@
 #include "shell.h"
 /**
  * hsh - entry point
- * @info: data struct
- * @av: the vec arg
+ * @info: data structure
+ * @av: the vec argument
  * Return: 0 always on success others otherwise
  */
 int hsh(info_t *info, char **av)
@@ -43,7 +43,7 @@ int hsh(info_t *info, char **av)
 
 /**
  * find_builtin - second entry point
- * @info: data struct
+ * @info: data structure
  * Return: always 0 on success others otherwise
  */
 int find_builtin(info_t *info)
@@ -73,7 +73,7 @@ int find_builtin(info_t *info)
 
 /**
  * find_cmd - third entry point
- * @info: data struct
+ * @info: data structure
  * Return: void
  */
 void find_cmd(info_t *info)

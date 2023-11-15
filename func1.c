@@ -1,9 +1,9 @@
 #include "shell.h"
 
 /**
- * is_chain - entry point
- * @info: data struct
- * @buf: buffer in char
+ * is_chain - entry point for val
+ * @info: data structure
+ * @buf: buffer in character
  * @p: ptr on buff
  * Return: 1 on delimeter and 0 otherwise
  */
@@ -36,8 +36,8 @@ int is_chain(info_t *info, char *buf, size_t *p)
 
 /**
  * check_chain - second entry point
- * @info: data struct
- * @buf: buffer to char
+ * @info: data structure
+ * @buf: buffer to character
  * @p: ptr to current
  * @i: the pos start in buff
  * @len: buff size
@@ -69,7 +69,7 @@ void check_chain(info_t *info, char *buf, size_t *p, size_t i, size_t len)
 
 /**
  * replace_alias - third entry point
- * @info: data struct
+ * @info: data structure
  * Return: 1 in replacement and 0 otherwise
  */
 int replace_alias(info_t *info)
@@ -97,7 +97,7 @@ int replace_alias(info_t *info)
 
 /**
  * replace_vars - fourth entry point
- * @info: data struct
+ * @info: data structure
  * Return: 1 always on success
  */
 int replace_vars(info_t *info)
@@ -138,7 +138,7 @@ int replace_vars(info_t *info)
 /**
  * replace_string - fifth entry point
  * @old: add to old string
- * @new: str
+ * @new: string
  * Return: 1 always on success others otherwise
  */
 int replace_string(char **old, char *new)

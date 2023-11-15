@@ -2,7 +2,8 @@
 /**
  * list_len - entry point
  * @h: ptr to first node
- * Return: list size
+ *
+ * Return: the list size
  */
 size_t list_len(const list_t *h)
 {
@@ -17,7 +18,7 @@ size_t list_len(const list_t *h)
 }
 
 /**
- * list_to_strings - second entry point
+ * list_to_strings - for second entry point
  * @head: ptr to header
  * Return: strings array
  */

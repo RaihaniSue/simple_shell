@@ -3,6 +3,7 @@
 /**
  * get_environ - entry point
  * @info: data struct
+ *
  * Return: Always 0
  */
 char **get_environ(info_t *info)
@@ -19,7 +20,7 @@ char **get_environ(info_t *info)
 /**
  * _unsetenv - second entry point
  * @info: data struct
- * @var: env str
+ * @var: env string
  * Return: 1 for deletion 0 otherwise
  */
 int _unsetenv(info_t *info, char *var)
@@ -49,8 +50,8 @@ int _unsetenv(info_t *info, char *var)
 
 /**
  * _setenv - third entry point
- * @info: data struct
- * @var: env str
+ * @info: data structure
+ * @var: env string
  * @value: str env value
  * Return: Always 0
  */

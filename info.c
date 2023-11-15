@@ -1,7 +1,7 @@
 #include "shell.h"
 /**
  * clear_info - entry point
- * @info: data struct
+ * @info: data structure
  */
 void clear_info(info_t *info)
 {
@@ -13,7 +13,7 @@ void clear_info(info_t *info)
 
 /**
  * set_info - second entry point
- * @info: data struct
+ * @info: data structure
  * @av: vec args
  */
 void set_info(info_t *info, char **av)
@@ -45,7 +45,7 @@ void set_info(info_t *info, char **av)
 
 /**
  * free_info - third entry point
- * @info: data struct
+ * @info: data structure
  * @all: emptying field
  */
 void free_info(info_t *info, int all)

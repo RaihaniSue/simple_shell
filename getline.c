@@ -2,10 +2,10 @@
 
 /**
  * input_buf - entry point
- * @info: data struct
- * @buf: buff add
- * @len: add of size
- * Return: the reaading result
+ * @info: data structure
+ * @buf: adds buff
+ * @len: add to size
+ * Return: the reading result
  */
 ssize_t input_buf(info_t *info, char **buf, size_t *len)
 {
@@ -43,7 +43,7 @@ ssize_t input_buf(info_t *info, char **buf, size_t *len)
 
 /**
  * get_input - second entry point
- * @info: data struct
+ * @info: data structure
  * Return: the reading value of bytes
  */
 ssize_t get_input(info_t *info)
@@ -87,7 +87,7 @@ ssize_t get_input(info_t *info)
 
 /**
  * read_buf - third entry point
- * @info: data struct
+ * @info: data structure
  * @buf: buffer
  * @i: size
  * Return: size t
@@ -106,7 +106,7 @@ ssize_t read_buf(info_t *info, char *buf, size_t *i)
 
 /**
  * _getline - fourth entry point
- * @info: data struct
+ * @info: data structure
  * @ptr: ptr add
  * @length: size buff
  * Return: s
@@ -152,7 +152,7 @@ int _getline(info_t *info, char **ptr, size_t *length)
 
 /**
  * sigintHandler - fifth entry point
- * @sig_num: sign num
+ * @sig_num: sign number
  * Return: void
  */
 void sigintHandler(__attribute__((unused))int sig_num)

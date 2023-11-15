@@ -1,8 +1,8 @@
 #include "shell.h"
-
 /**
  * _myexit - entry point
  * @info: parameter
+ *
  *  Return: 0 Always for success
  */
 int _myexit(info_t *info)
@@ -30,7 +30,8 @@ int _myexit(info_t *info)
 /**
  * _mycd - second entry point
  * @info: data struct
- *  Return: Always 0
+ *
+ *Return: Always 0
  */
 int _mycd(info_t *info)
 {
@@ -79,6 +80,7 @@ int _mycd(info_t *info)
 /**
  * _myhelp - third entry point
  * @info: data struct
+ *
  *  Return: Always 0
  */
 int _myhelp(info_t *info)

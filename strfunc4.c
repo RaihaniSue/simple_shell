@@ -1,10 +1,9 @@
 #include "shell.h"
-
 /**
- * **strtow - splits a string into words. Repeat delimiters are ignored
- * @str: the input string
- * @d: the delimeter string
- * Return: a pointer to an array of strings, or NULL on failure
+ * **strtow - first entry point
+ * @str: in sttr
+ * @d: delimeter
+ * Return: ptr other NULL
  */
 
 char **strtow(char *str, char *d)
@@ -49,10 +48,10 @@ char **strtow(char *str, char *d)
 }
 
 /**
- * **strtow2 - splits a string into words
- * @str: the input string
- * @d: the delimeter
- * Return: a pointer to an array of strings, or NULL on failure
+ * **strtow2 - second entry point
+ * @str: in str
+ * @d: delimeter
+ * Return: ptr or NULL
  */
 char **strtow2(char *str, char d)
 {

@@ -32,7 +32,7 @@ void ffree(char **pp)
 /**
  * _realloc - third entry point
  * @ptr: ptr
- * @old_size: size 
+ * @old_size: size
  * @new_size: size of new
  * Return: pointer
  */
